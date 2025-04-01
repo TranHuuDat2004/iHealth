@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@android:color/white">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="16dp">
+
+<!-- Trình giữ chỗ hình ảnh (Có thể là hình tròn hoặc vuông) -->
+<!-- Bạn có thể dùng FrameLayout để chứa cả ảnh và chấm xanh dễ dàng hơn -->
+<FrameLayout
+    android:id="@+id/imageFrame"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_placeholder_gray_circle"
+    android:contentDescription="@string/profile_picture" />
+
+
+    <!-- Chấm trạng thái Online -->
+    <ImageView
+        android:id="@+id/imageViewStatus"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/shape_status_online"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"
+    tools:visibility="visible"
+    android:contentDescription="@string/online_status"/>
+
+</FrameLayout>
+
+<TextView
+    android:id="@+id/textViewName"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="8dp"
+    android:textColor="@android:color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toEndOf="@id/imageFrame"
+    app:layout_constraintTop_toTopOf="@id/imageFrame"
+    app:layout_constraintEnd_toStartOf="@id/textViewTimestamp"
+    tools:text="Dr. ruth merry" />
+
+<TextView
+    android:id="@+id/textViewMessagePreview"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:textColor="@android:color/darker_gray"
+    android:textSize="14sp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    app:layout_constraintStart_toStartOf="@id/textViewName"
+    app:layout_constraintTop_toBottomOf="@id/textViewName"
+    app:layout_constraintEnd_toEndOf="@id/textViewName"
+    app:layout_constraintBottom_toBottomOf="@id/imageFrame"
+    tools:text="Check the prescription..." />
+
+<TextView
+    android:id="@+id/textViewTimestamp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:textSize="14sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/textViewName"
+    tools:text="5:00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>

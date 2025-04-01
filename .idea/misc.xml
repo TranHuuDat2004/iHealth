@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/cuoiki/app/src/main/res/drawable-v24/bottom_nav_item_color_selector.xml" value="0.1035" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable-v24/shape_placeholder_gray_circle.xml" value="0.1035" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable-v24/shape_placeholder_gray_square.xml" value="0.1035" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable-v24/shape_status_online.xml" value="0.1035" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable/bg_input_bar.xml" value="0.1" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable/bg_message_incoming.xml" value="0.1" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable/bg_message_outgoing.xml" value="0.1" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable/shape_button_outline_rounded.xml" value="0.1" />
+        <entry key="..\:/cuoiki/app/src/main/res/drawable/shape_placeholder_gray_rounded.xml" value="0.1" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/activity_chat.xml" value="0.1685185185185185" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/activity_main.xml" value="0.1641337386018237" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/fragment_inbox.xml" value="0.14074074074074075" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/item_message_outgoing.xml" value="0.1685185185185185" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/list_item_inbox.xml" value="0.3323076923076923" />
+        <entry key="..\:/cuoiki/app/src/main/res/layout/menu.xml" value="0.2814814814814815" />
+        <entry key="..\:/cuoiki/app/src/main/res/menu/list_item_inbox.xml" value="0.3375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

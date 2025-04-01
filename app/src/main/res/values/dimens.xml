@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding -->
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_small_x">4dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_x">4dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen> <!-- Kích thước chuẩn cho nội dung tin nhắn -->
+    <dimen name="text_size_small">12sp</dimen> <!-- Cho timestamp -->
+    <dimen name="text_size_xsmall">10sp</dimen>
+
+    <!-- Component Sizes -->
+    <dimen name="profile_pic_size_small">40dp</dimen>
+    <dimen name="input_min_height">48dp</dimen> <!-- Đảm bảo dễ chạm -->
+    <dimen name="icon_size_standard">24dp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="message_corner_radius">18dp</dimen>
+    <dimen name="input_bar_corner_radius">24dp</dimen> <!-- Nửa chiều cao min để bo tròn hoàn toàn -->
+
+</resources>

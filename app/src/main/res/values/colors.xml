@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="colorPrimary">#FFFFFF</color> <!-- Hoặc màu chính của bạn -->
+        <color name="colorPrimaryDark">#CCCCCC</color> <!-- Hoặc màu tối hơn của bạn -->
+        <color name="colorAccent">#008000</color> <!-- Màu xanh lá cây -->
+        <color name="button_green_text_color">#008000</color> <!-- Màu xanh lá cây cho văn bản/viền nút -->
+
+    <!-- App Specific Colors -->
+    <color name="chat_background_grey">#FFF8F9FA</color> <!-- Màu nền chung rất nhạt -->
+    <color name="grey_dark">#FF606060</color> <!-- Cho icon, text phụ -->
+    <color name="grey_medium">#FF9E9E9E</color> <!-- Cho hint, timestamp header -->
+    <color name="grey_light">#FFE0E0E0</color> <!-- Có thể dùng cho đường kẻ -->
+
+    <color name="message_outgoing_green">#FF00C853</color> <!-- Màu xanh lá cây đậm cho tin nhắn đi -->
+    <color name="timestamp_green">#FF4CAF50</color> <!-- Màu xanh lá cây nhạt hơn cho timestamp tin nhắn -->
+    <color name="send_button_green">@color/message_outgoing_green</color> <!-- Nút gửi cùng màu -->
+
+    <color name="input_bar_background">#FFE8E8E8</color> <!-- Màu nền thanh nhập liệu -->
+    <color name="toolbar_background">@color/white</color> <!-- Màu nền Toolbar -->
+
+    <!-- Typing Indicator Colors -->
+    <color name="typing_dot_green">@color/message_outgoing_green</color>
+    <color name="typing_dot_pink">#FFF48FB1</color> <!-- Màu hồng nhạt -->
+</resources>

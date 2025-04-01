@@ -1,0 +1,45 @@
+<resources>
+        <string name="app_name">iHealth</string>
+        <string name="menu">Menu</string>
+        <string name="notifications">Thông báo</string>
+        <string name="pharmacy_logo">Logo nhà thuốc</string>
+        <string name="directions">Chỉ đường</string>
+        <string name="chat">Trò chuyện</string>
+        <string name="call">Gọi điện</string>
+        <string name="products">Sản phẩm</string>
+        <string name="product_covid">Covid-19</string>
+        <string name="product_blood_pressure">Huyết áp</string> <!-- Có thể cần \n cho xuống dòng -->
+        <string name="product_pain_killers">Thuốc giảm đau</string>
+        <string name="product_stomach">Dạ dày</string>
+        <string name="product_epilepsy">Động kinh</string> <!-- Sửa lỗi chính tả từ hình ảnh -->
+        <string name="product_pancreatics">Tụy</string>
+        <string name="product_neuro_pill">Thuốc thần kinh</string>
+        <string name="product_immune_system">Hệ miễn dịch</string>
+        <string name="product_other">Khác</string>
+        <!-- Thêm các chuỗi khác nếu cần -->
+
+        <string name="inbox_title">Inbox</string>
+        <string name="profile_picture">Ảnh hồ sơ</string>
+        <string name="online_status">Trạng thái trực tuyến</string>
+
+        <string name="bottom_nav_home">Home</string>
+        <string name="bottom_nav_cart">Cart</string>
+        <string name="bottom_nav_chat">Chat</string>
+        <string name="bottom_nav_account">Account</string>
+
+        <!-- Content Descriptions (Accessibility) -->
+        <string name="back">Quay lại</string>
+        <string name="attach_file">Đính kèm tệp</string>
+        <string name="send_message">Gửi tin nhắn</string>
+
+        <!-- UI Text -->
+        <string name="hint_message_input">Im feeling..</string> <!-- Hint trong ô nhập liệu -->
+        <string name="typing_indicator">…</string> <!-- Chỉ báo đang nhập -->
+
+        <!-- Placeholder Text (nên lấy từ dữ liệu thực tế) -->
+        <string name="doctor_name_placeholder">Dr, Anum Patel</string>
+        <string name="timestamp_header_placeholder">HÔM NAY LÚC 10:45 SA</string>
+        <string name="message_time_placeholder">5 phút trước</string>
+        <string name="incoming_message_placeholder">Hi Amina! How are you?</string>
+        <string name="outgoing_message_placeholder">Doing good, how do you feel about your patterns now?</string>
+</resources>
